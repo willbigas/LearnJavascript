@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aplicando Funcoes em Javascript</title>
+</head>
+
+<body>
+    <script>
+        // AND , OR / NOT
+        var sexo = 'F' , idade = 23;
+
+        // if (sexo === 'M' && idade >= 18) { // AND
+        //     console.log('OK');
+        // }
+
+        // if (sexo === 'M' || idade >= 18) { // OR
+        //     console.log('OK');
+        // }
+        if (sexo !== 'M') { // OPERADOR INVERSO - NEGACAO
+            console.log('OK');
+        } else {
+            console.log('Nada ok');
+        }
+
+        var masculino = sexo === 'm'; // ARMAZENANDO CONDICAO DENTRO VARIAVEL (MUITO INTERESSANTE);
+        var masculino = (sexo === 'm' && idade <= 23);    // usar parenteses se for + de uma condicao;
+
+
+    </script>
+
+</body>
+
+</html>
