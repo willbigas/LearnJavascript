@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Aplicando Funcoes em Javascript</title>
-</head>
-
-<body>
-    <script>
-        // Estudar ===
+        /**
+         * Estrutura de Condicao - IF
+         * 
+         */
+        
         // if (1 == '1') // return true; (Verifica somente os valores das variaveis)
 
         // if (1 === '1') // return false (Verifica Valores e Tipos);
 
+        /**
+         * Faz Verificação de Sexo por String
+         * @param {} sexo 
+         */
         function retornaSexo(sexo) {
             // M , F
             // MASCULINO , FEMININO
@@ -25,9 +24,4 @@
             }
         }
         var resultado = retornaSexo('ursauhruashr');
-        console.log(resultado);
-    </script>
-
-</body>
-
-</html>
+        console.log(resultado); // imprime no console
