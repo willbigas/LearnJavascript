@@ -1,5 +1,5 @@
 /**
- * Condicao Ternararia
+ * Condicao Ternaria
  */
 
 var sexo = 'm';
