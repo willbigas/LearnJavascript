@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aplicando Funcoes em Javascript</title>
+</head>
+
+<body>
+    <div id="app">
+        <button onclick="mostraAlerta()">Event on Click</button>  <!-- evento ao clicar em cima -->
+    </div>
+<br>
+    <div id="app">
+            <button onmouseover="mostraAlerta()">Event Mouse Over</button> <!-- evento ao passar o mouse em cima -->
+        </div>
+        <br>
+    <div id="app">
+            <input onkeypress="mostraAlerta()"/> <!-- evento ao passar o mouse em cima -->
+        </div>
+    <script>
+        function mostraAlerta() {
+            alert('Botao Foi clicado');
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo de Manipulacao de Componentes com Javascript</title>
+    
+</head>
+
+<body>
+    <div id="app">
+        <input type="text" name='nome' />
+        <input type="text" name='nome2' />
+        <button class="botao">adicionar</button>
+    </div>
+
+    <script>
+        var inputElement = document.querySelector('div#app input'); // buscar por query em todo o document
+        console.log(inputElement);
+
+        var inputElement = document.querySelector('input[name=nome]'); // buscar por input com propriedades especificas de name = nome;
+        console.log(inputElement);
+
+        var inputElement = document.querySelector('input'); // retorna o primeiro elemento de input
+        console.log(inputElement);
+
+        var inputElement = document.querySelectorAll('input'); // retorna o primeiro elemento de input
+        console.log(inputElement);
+
+
+
+    </script>
+
+</body>
+
+</html>
