@@ -1,13 +1,13 @@
 #Aprendendo Javascript - Hellow World.
 
-###Curso da Rocketseat com Diego Fernandes.
+-Curso da Rocketseat com Diego Fernandes.
 
-###Sintaxes Padrões - **IF, FOR, WHILE, INTERVAL, TIMEOUT**
+-Sintaxes Padrões - **IF, FOR, WHILE, INTERVAL, TIMEOUT**
 
-###Exercicios Resolvidos
+-Exercicios Resolvidos
 
-###**Promises** e **Requisições Assincronas (Ajax)**
+-Promises e **Requisições Assincronas (Ajax)**
 
-###Manipulação de DOM usando **QuerySelector**
+-Manipulação de DOM usando **QuerySelector**
 
-###Eventos em Componentes do DOM
+-Eventos em Componentes do DOM
